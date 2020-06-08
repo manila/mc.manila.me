@@ -9,6 +9,15 @@
 	src: url("../fonts/Minecraft.ttf") format("truetype");
 }
 
+@keyframes textbounce {
+	from {
+		transform: rotate(-20deg) scale(100%);
+	}
+	to {
+		transform: rotate(-20deg) scale(110%) translateX(4%);
+	}
+}
+
 body {
 	background: #999;
 }
@@ -37,11 +46,4 @@ h6 {
 	animation: 0.5s ease-in-out  0s infinite alternate textbounce;
 }
 
-@keyframes textbounce {
-	from {
-		transform: rotate(-20deg) scale(100%);
-	}
-	to {
-		transform: rotate(-20deg) scale(110%) translateX(4%);
-	}
-}
+
