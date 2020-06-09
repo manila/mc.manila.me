@@ -60,8 +60,8 @@ label {
 label::before {
 	background-image: url("../images/netherrack-unlit-small.gif");
 	background-repeat: no-repeat;
-	padding-left: 79px;
-	padding-top: 64px;
+	padding-left: 85px;
+	padding-top: 60px;
 	padding-bottom: 16px;
 	content: "";
 }
@@ -69,8 +69,8 @@ label::before {
 .faq-checkbox:checked + label::before {
 	background-image: url("../images/netherrack-lit-small.gif");
 	background-repeat: no-repeat;
-	padding-left: 79px;
-	padding-top: 64px;
+	padding-left: 85px;
+	padding-top: 60px;
 	padding-bottom: 16px;
 }
 
@@ -114,7 +114,7 @@ h6 {
 
 .faq-checkbox:checked ~ .faq-article {
 	display: block;
-	padding: 16px 0px 0px 0px;
+	padding: 24px 0px 0px 0px;
 }
 
 ul {
@@ -124,5 +124,5 @@ ul {
 }
 
 li {
-	margin: 32px auto 80px auto;
+	margin: 48px auto 80px auto;
 }
