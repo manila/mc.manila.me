@@ -76,7 +76,7 @@ label::before {
 
 label:hover {
 	text-decoration: underline;
-	cursor: pointer;
+	cursor: url("../images/flint-and-steel.png"), default;
 }
 
 input[type="checkbox"] {	
@@ -119,7 +119,6 @@ h6 {
 
 ul {
 	margin-top: -25px;
-	margin-left: 0px;
 	padding: 0px;
 	list-style: none;
 }
