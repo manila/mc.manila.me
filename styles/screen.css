@@ -76,7 +76,7 @@ label::before {
 
 label:hover {
 	text-decoration: underline;
-	cursor: url("../images/flint-and-steel.png"), default;
+	cursor: url("../images/flint-and-steel.png"), pointer;
 }
 
 input[type="checkbox"] {	
